@@ -8,4 +8,4 @@ def reverse(x: int) -> int:
 
 x = int(input("Enter a number: "))
 reverse = reverse(x)
-print(reverse)
+print("Reverse of the Number is: ",reverse)
