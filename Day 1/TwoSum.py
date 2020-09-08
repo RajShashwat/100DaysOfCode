@@ -1,4 +1,4 @@
-def twoSum(nums, target: int) :
+def twoSum(nums: [int], target: int) -> [int]:
     hashMap = {}
     for index,num in enumerate(nums):
         val = target-num
@@ -14,4 +14,4 @@ target = int(input("Enter the target Number: "))
 
 result = twoSum(List,target)
 
-print("index of the numbers are: ", result)
+print("Index of the numbers are: ", result)
