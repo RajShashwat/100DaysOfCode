@@ -13,7 +13,6 @@ def intToBinary(num: int) -> str :
     binary = ""
     while not stack.is_empty():
         binary += str(stack.pop())
-        print(stack)
     return binary
 
 num = int(input("Enter a Number: "))
