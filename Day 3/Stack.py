@@ -12,7 +12,7 @@ class Stack:
     def top(self) -> int:
         return self.stack[-1]
 
-    def get_stack(self) -> [int]:
+    def get_stack(self) -> list:
         return self.stack
 
     def length(self) -> int:

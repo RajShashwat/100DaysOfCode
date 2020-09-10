@@ -1,4 +1,4 @@
-def removeDuplicates(nums: [int]) -> int:
+def removeDuplicates(nums: list) -> int:
         i = len(nums)
         while i > 1:
             i -= 1
