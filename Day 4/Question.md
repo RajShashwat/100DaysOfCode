@@ -31,11 +31,10 @@ Note that the input array is passed in by reference, which means modification to
 Internally you can think of this:
 ``` python
 # nums is passed in by reference. (i.e., without making a copy)
-len = removeDuplicates(nums);
+len = removeDuplicates(nums)
 
 # any modification to nums in your function would be known by the caller.
 # using the length returned by your function, it prints the first len elements.
-for (int i = 0; i < len; i++) {
-    print(nums[i]);
-}
+for i in nums:
+    print(i)
 ```
